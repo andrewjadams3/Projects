@@ -3,5 +3,8 @@ def simple_palindrome(string)
 	string == string.reverse
 end
 
-puts simple_palindrome("A but tuba")
-puts simple_palindrome("Is this a palindrome?")
+#Test cases
+puts simple_palindrome("A but tuba") == true
+puts simple_palindrome("Is this a palindrome?") == false
+
+#Does not work with punctuation. Future update?
