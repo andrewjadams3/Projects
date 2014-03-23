@@ -30,7 +30,7 @@ class Inventory
 
 end
 
-if __FILE__ == $0
+if __FILE__ == $PROGRAM_NAME
 	
 	carrots = Product.new("carrot", 1, 13)
 	pencils = Product.new("pencil", 0.15, 112)
